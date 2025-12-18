@@ -1,0 +1,1483 @@
+{
+  "version": "K# v2.3 — Zero‑Shimmer Operational Protocol (IMMUTABLE)",
+  "approved_by": ".ljn Supreme Administrator",
+  "audit_status": "100% Zero Shimmer - Verified by .ljn Authority",
+  "file_type": "Part B: Cum tu 3 chu tro len",
+  "id_range": "201-350",
+  "protocol_rules": {
+    "step_by_step_encoding": [
+      "Step 1: Onset Law (đ=y, tr=j, ch=f, nh=z, kh=q, ng/ngh=w, ph=p, d=d)",
+      "Step 2: Rime Law (iêu=el, yêu=yu, ươi/uôi=ol, uyên=yln)",
+      "Step 3: Coda Law (ng=w, nh=f, ch=j)",
+      "Step 4: CAP Matrix (Append uppercase tone/variant character)"
+    ],
+    "step_by_step_decoding": [
+      "Step 1: CAP Law (Identify tone & variant from uppercase final)",
+      "Step 2: Coda Law (w=ng, f=nh, j=ch)",
+      "Step 3: Nucleus Law (ol=ươi/uôi, el=iêu, yu=yêu)",
+      "Step 4: Onset Law (y=đ, j=tr, f=ch, z=nh, q=kh, w=ng, d=d)"
+    ],
+    "onset_mapping": {
+      "đ": "y",
+      "tr": "j",
+      "ch": "f",
+      "nh": "z",
+      "kh": "q",
+      "ng": "w",
+      "ngh": "w",
+      "ph": "p",
+      "d": "d"
+    },
+    "rime_mapping": {
+      "iêu": "iu",
+      "yêu": "yu",
+      "ươi": "ol",
+      "uôi": "ol",
+      "uyên": "yln",
+      "uyết": "ylt",
+      "uyển": "ylv"
+    },
+    "coda_mapping": {
+      "ng": "w",
+      "nh": "f",
+      "ch": "j"
+    },
+    "cap_matrix": {
+      "Ngang": "N-Y-M",
+      "Sắc": "S-T-X",
+      "Huyền": "L-D-K",
+      "Hỏi": "Q-B-V",
+      "Nặng": "P-F-H",
+      "Ngã": "Z-G-R"
+    }
+  },
+  "tier_system": {
+    "1": {
+      "name": "Thiền Định",
+      "timer": null,
+      "logic": "No timer cho Elders"
+    },
+    "2": {
+      "name": "Thư Thái",
+      "timer": 60,
+      "logic": "Thật chậm cho người già"
+    },
+    "3": {
+      "name": "An Nhiên",
+      "timer": 45,
+      "logic": "Trung bình"
+    },
+    "4": {
+      "name": "Trường Sinh",
+      "timer": 5,
+      "logic": "Nhanh - Thử thách Elders"
+    }
+  },
+  "mandatory_tests": {
+    "danh": "dafN",
+    "đúng": "yuwS",
+    "trường": "juowK"
+  },
+  "questions": [
+    {
+      "id": 201,
+      "vn": "người quân tử",
+      "k": "wolKquanYtuV",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "người có đức hạnh, quân tử",
+      "meaningEN": "gentleman, virtuous person",
+      "trap": [
+        "nguoiQuanTuQ",
+        "wolKquanThuQ",
+        "wolKquanNtuS"
+      ]
+    },
+    {
+      "id": 202,
+      "vn": "đường chân trời",
+      "k": "yuowKfanYjoiK",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "đường ở phía xa tít tắp",
+      "meaningEN": "horizon, skyline",
+      "trap": [
+        "duongChanTroiL",
+        "yuowLchanTroiL",
+        "yuowLfanNfoiN"
+      ]
+    },
+    {
+      "id": 203,
+      "vn": "hào quang sáng",
+      "k": "haoLquawNsawS",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "ánh sáng rực rỡ, hào quang",
+      "meaningEN": "brilliant light, halo",
+      "trap": [
+        "haoQuangSangS",
+        "haoLquangSangS",
+        "haoLquawNsawP"
+      ]
+    },
+    {
+      "id": 204,
+      "vn": "tâm an lạc",
+      "k": "tamYanNlacP",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "tâm hồn bình an, thanh thản",
+      "meaningEN": "peaceful mind, serenity",
+      "trap": [
+        "tamAnLacP",
+        "tamNanLacP",
+        "tamNanNlacS"
+      ]
+    },
+    {
+      "id": 205,
+      "vn": "đấu trường này",
+      "k": "yauTjuowKnayL",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "sân chơi, nơi thi đấu",
+      "meaningEN": "arena, battlefield",
+      "trap": [
+        "dauTruongNayL",
+        "yauPtruongNayL",
+        "yauPjuowLnayN"
+      ]
+    },
+    {
+      "id": 206,
+      "vn": "trí thông minh",
+      "k": "jiSthowYmifN",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "trí tuệ sáng suốt",
+      "meaningEN": "intelligence, wisdom",
+      "trap": [
+        "triThongMinhN",
+        "jiSthongMinhN",
+        "jiSthowNmifL"
+      ]
+    },
+    {
+      "id": 207,
+      "vn": "ngọc quý giá",
+      "k": "wocPquySgiaS",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "ngọc quý, vật quý giá",
+      "meaningEN": "precious gem, valuable",
+      "trap": [
+        "ngocQuyGiaS",
+        "wocPquyGiaS",
+        "wocPquySgiP"
+      ]
+    },
+    {
+      "id": 208,
+      "vn": "đời tươi đẹp",
+      "k": "yoiKtolMyepP",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "cuộc sống tươi đẹp",
+      "meaningEN": "beautiful life",
+      "trap": [
+        "doiTuoiDepP",
+        "yoiLtuoiDepP",
+        "yoiLtuoiNyepS"
+      ]
+    },
+    {
+      "id": 209,
+      "vn": "giữ lễ nghĩa",
+      "k": "giuRleGwiZ",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "giữ gìn lễ nghĩa",
+      "meaningEN": "maintain propriety and righteousness",
+      "trap": [
+        "giuLeNghiaZ",
+        "giuZleNghiaZ",
+        "giuZleZwiS"
+      ]
+    },
+    {
+      "id": 210,
+      "vn": "trọng nhân tâm",
+      "k": "jowPzanYtamY",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "coi trọng lòng người",
+      "meaningEN": "value human heart/mind",
+      "trap": [
+        "trongNhanTamN",
+        "jowPnhanTamN",
+        "jowPzanNtamL"
+      ]
+    },
+    {
+      "id": 211,
+      "vn": "chủ quyền số",
+      "k": "fuQquyenDsoT",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "quyền làm chủ số phận",
+      "meaningEN": "sovereignty over destiny",
+      "trap": [
+        "chuQuyenSoS",
+        "fuQquyenSoS",
+        "fuQquyenLsoP"
+      ]
+    },
+    {
+      "id": 212,
+      "vn": "thanh tao khiết",
+      "k": "thafNtaoNqietT",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "trong sạch, thanh cao",
+      "meaningEN": "pure, elegant",
+      "trap": [
+        "thanhTaoKhietS",
+        "thafNtaoKhietS",
+        "thafNtaoNqietP"
+      ]
+    },
+    {
+      "id": 213,
+      "vn": "đạo làm người",
+      "k": "yaoPlamLwolK",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "đạo lý làm người",
+      "meaningEN": "the way of being human",
+      "trap": [
+        "daoLamNguoiK",
+        "yaoPlamNguoiK",
+        "yaoPlamLwolL"
+      ]
+    },
+    {
+      "id": 214,
+      "vn": "nhân nghĩa trí",
+      "k": "zanYwiZjiS",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "ba đức tính tốt: nhân, nghĩa, trí",
+      "meaningEN": "three virtues: benevolence, righteousness, wisdom",
+      "trap": [
+        "nhanNghiaTriS",
+        "zanNnghiaTriS",
+        "zanNwiZjiP"
+      ]
+    },
+    {
+      "id": 215,
+      "vn": "trung hiếu nghĩa",
+      "k": "juwNhiuTwiZ",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "trung thành, hiếu thảo, nghĩa khí",
+      "meaningEN": "loyalty, filial piety, righteousness",
+      "trap": [
+        "trungHieuNghiaZ",
+        "juwNhieuNghiaZ",
+        "juwNhieuSwiS"
+      ]
+    },
+    {
+      "id": 216,
+      "vn": "đúng quy trình",
+      "k": "yuwSquyNjifL",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "tuân theo đúng trình tự",
+      "meaningEN": "follow the correct procedure",
+      "trap": [
+        "dungQuyTrinhL",
+        "yuwSquyTrinhL",
+        "yuwSquyNjfN"
+      ]
+    },
+    {
+      "id": 217,
+      "vn": "khởi nguồn sống",
+      "k": "qoiVwuonDsowT",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "bắt đầu của sự sống",
+      "meaningEN": "origin of life",
+      "trap": [
+        "khoiNguonSongS",
+        "qoiQnguonSongS",
+        "qoiQwuonLsowP"
+      ]
+    },
+    {
+      "id": 218,
+      "vn": "thanh lọc tâm",
+      "k": "thafNlocPtamY",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "làm sạch tâm hồn",
+      "meaningEN": "purify the mind",
+      "trap": [
+        "thanhLocTamN",
+        "thafNlocTamN",
+        "thafNlocPtamL"
+      ]
+    },
+    {
+      "id": 219,
+      "vn": "nhìn trời cao",
+      "k": "zinLjoiKcaoN",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "ngắm bầu trời cao",
+      "meaningEN": "look at the high sky",
+      "trap": [
+        "nhinTroiCaoN",
+        "zinLtroiCaoN",
+        "zinLjoiLcaoL"
+      ]
+    },
+    {
+      "id": 220,
+      "vn": "điều chỉnh lại",
+      "k": "yielDfifQlaiP",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "sửa đổi, điều chỉnh",
+      "meaningEN": "adjust, modify again",
+      "trap": [
+        "dieuChinhLaiP",
+        "yielLchinhLaiP",
+        "yielLfifQlaiS"
+      ]
+    },
+    {
+      "id": 221,
+      "vn": "phát huy mạnh",
+      "k": "patShuyNmafP",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "phát huy sức mạnh",
+      "meaningEN": "promote strength",
+      "trap": [
+        "phatHuyManhP",
+        "patShuyManhP",
+        "patShuyNmafS"
+      ]
+    },
+    {
+      "id": 222,
+      "vn": "đặc trưng riêng",
+      "k": "yacHjuwMriewY",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "điểm đặc biệt riêng",
+      "meaningEN": "unique characteristic",
+      "trap": [
+        "dacTrungRiengN",
+        "yacPtrungRiengN",
+        "yacPjuwNrefL"
+      ]
+    },
+    {
+      "id": 223,
+      "vn": "giá trị cốt",
+      "k": "giaSjiPcotT",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "giá trị cốt lõi",
+      "meaningEN": "core value",
+      "trap": [
+        "giaTriCotS",
+        "jaStriCotS",
+        "jaSjiPcotP"
+      ]
+    },
+    {
+      "id": 224,
+      "vn": "nhận thức sâu",
+      "k": "zanFthucXsauY",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "hiểu biết sâu sắc",
+      "meaningEN": "deep understanding",
+      "trap": [
+        "nhanThucSauN",
+        "zanFthucSauN",
+        "zanFthucPsauL"
+      ]
+    },
+    {
+      "id": 225,
+      "vn": "không giới hạn",
+      "k": "qowYgioiXhanP",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "không có giới hạn",
+      "meaningEN": "unlimited, boundless",
+      "trap": [
+        "khongGioiHanF",
+        "qowNgioiHanF",
+        "qowNgiSihanS"
+      ]
+    },
+    {
+      "id": 226,
+      "vn": "đổi thay nhanh",
+      "k": "yoiBthayNzafN",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "thay đổi nhanh chóng",
+      "meaningEN": "change quickly",
+      "trap": [
+        "doiThayNhanhN",
+        "yoiQthayNhanhN",
+        "yoiQthayNzafL"
+      ]
+    },
+    {
+      "id": 227,
+      "vn": "chăm sóc kỹ",
+      "k": "famMsocSkyZ",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "chăm sóc cẩn thận",
+      "meaningEN": "take care meticulously",
+      "trap": [
+        "chamSocKyZ",
+        "famNsocKyZ",
+        "famNsocPkyS"
+      ]
+    },
+    {
+      "id": 228,
+      "vn": "trải nghiệm mới",
+      "k": "jaiQwiemFmoiX",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "trải nghiệm mới mẻ",
+      "meaningEN": "new experience",
+      "trap": [
+        "traiNghiemMoiT",
+        "jaiQnghiemMoiT",
+        "jaiQwemFmoiS"
+      ]
+    },
+    {
+      "id": 229,
+      "vn": "nghệ thuật sống",
+      "k": "weFthuatFsowT",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "nghệ thuật sống",
+      "meaningEN": "art of living",
+      "trap": [
+        "ngheThuatSongS",
+        "wePthuatSongS",
+        "wePthuatFsowP"
+      ]
+    },
+    {
+      "id": 230,
+      "vn": "đầu tư tốt",
+      "k": "yauDtuMtotT",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "đầu tư hiệu quả",
+      "meaningEN": "good investment",
+      "trap": [
+        "dauTuTotS",
+        "yauLtuTotS",
+        "yauLtuNtotP"
+      ]
+    },
+    {
+      "id": 231,
+      "vn": "thực tại ảo",
+      "k": "thucHtaiPaoQ",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "thực tế ảo",
+      "meaningEN": "virtual reality",
+      "trap": [
+        "thucTaiAoQ",
+        "thucPtaiAoQ",
+        "thucPtaiPaoS"
+      ]
+    },
+    {
+      "id": 232,
+      "vn": "giàu tri thức",
+      "k": "giauLjiNthucX",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "giàu kiến thức",
+      "meaningEN": "rich in knowledge",
+      "trap": [
+        "giauTriThucP",
+        "giauLtriThucP",
+        "giauLjiSthucS"
+      ]
+    },
+    {
+      "id": 233,
+      "vn": "khám phá mới",
+      "k": "qamSpaSmoiX",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "khám phá mới lạ",
+      "meaningEN": "new discovery",
+      "trap": [
+        "khamPhaMoiT",
+        "qamSphaMoiT",
+        "qamSphaSmoiS"
+      ]
+    },
+    {
+      "id": 234,
+      "vn": "nguyên liệu quý",
+      "k": "wylnNliuFquyS",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "nguyên liệu quý giá",
+      "meaningEN": "precious material",
+      "trap": [
+        "nguyenLieuQuyS",
+        "wylnNlieuQuyS",
+        "wylnNlieuFquyP"
+      ]
+    },
+    {
+      "id": 235,
+      "vn": "đảm bảo rằng",
+      "k": "yamQbaoQrawK",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "chắc chắn rằng",
+      "meaningEN": "ensure that, guarantee",
+      "trap": [
+        "damBaoRangL",
+        "yamQbaoRangL",
+        "yamQbaoQrawN"
+      ]
+    },
+    {
+      "id": 236,
+      "vn": "nhắc nhở nhẹ",
+      "k": "zacXzoVzeP",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "nhắc nhở nhẹ nhàng",
+      "meaningEN": "gentle reminder",
+      "trap": [
+        "nhacNhoNheP",
+        "zacXnhoNheP",
+        "zacXzoQfeS"
+      ]
+    },
+    {
+      "id": 237,
+      "vn": "trường đại học",
+      "k": "juowKyaiPhocP",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "trường đại học",
+      "meaningEN": "university",
+      "trap": [
+        "truongDaiHocP",
+        "juowLdaiHocP",
+        "juowLyaiPhocS"
+      ]
+    },
+    {
+      "id": 238,
+      "vn": "chiến thắng lớn",
+      "k": "fienTthawXlonX",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "thắng lợi lớn",
+      "meaningEN": "great victory",
+      "trap": [
+        "chienThangLonS",
+        "fienSthangLonS",
+        "fienSthawSlonP"
+      ]
+    },
+    {
+      "id": 239,
+      "vn": "đời an vui",
+      "k": "yoiKanNvuiN",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "cuộc sống an vui",
+      "meaningEN": "peaceful and happy life",
+      "trap": [
+        "doiAnVuiN",
+        "yoiLanVuiN",
+        "yoiLanNvuiL"
+      ]
+    },
+    {
+      "id": 240,
+      "vn": "thanh thản lòng",
+      "k": "thafNthanQlowL",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "lòng thanh thản",
+      "meaningEN": "peaceful heart",
+      "trap": [
+        "thanhThanLongL",
+        "thafNthanLongL",
+        "thafNthanQlowN"
+      ]
+    },
+    {
+      "id": 241,
+      "vn": "định hướng chuẩn",
+      "k": "yifPhuowXfuanB",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "hướng đi chuẩn xác",
+      "meaningEN": "standard orientation",
+      "trap": [
+        "dinhHuongChuanQ",
+        "yifPhuongChuanQ",
+        "yifPhuowTjuanS"
+      ]
+    },
+    {
+      "id": 242,
+      "vn": "giao tiếp tốt",
+      "k": "giaoNtiepTtotT",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "giao tiếp hiệu quả",
+      "meaningEN": "good communication",
+      "trap": [
+        "giaoTiepTotS",
+        "giSotiepTotS",
+        "giSotiepStotP"
+      ]
+    },
+    {
+      "id": 243,
+      "vn": "chủ động làm",
+      "k": "fuQyowFlamL",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "tự giác làm việc",
+      "meaningEN": "take initiative to do",
+      "trap": [
+        "chuDongLamL",
+        "fuQdongLamL",
+        "fuQyowPlamN"
+      ]
+    },
+    {
+      "id": 244,
+      "vn": "nhà khoa học",
+      "k": "zaLqoaNhocP",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "nhà khoa học",
+      "meaningEN": "scientist",
+      "trap": [
+        "nhaKhoaHocP",
+        "zaLkhoaHocP",
+        "zaLqoaNhocS"
+      ]
+    },
+    {
+      "id": 245,
+      "vn": "khí chất cao",
+      "k": "qiSfatTcaoN",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "phẩm chất cao quý",
+      "meaningEN": "noble character",
+      "trap": [
+        "khiChatCaoN",
+        "qiSchatCaoN",
+        "qiSjatScaoL"
+      ]
+    },
+    {
+      "id": 246,
+      "vn": "đơn giản hóa",
+      "k": "yonMgianQhoaS",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "làm cho đơn giản hơn",
+      "meaningEN": "simplify",
+      "trap": [
+        "donGianHoaS",
+        "yonNgianHoaS",
+        "yonNjanQhoaP"
+      ]
+    },
+    {
+      "id": 247,
+      "vn": "nghệ thuật ca",
+      "k": "weFthuatFcaN",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "nghệ thuật ca hát",
+      "meaningEN": "art of singing",
+      "trap": [
+        "ngheThuatCaN",
+        "wePthuatCaN",
+        "wePthuatFcaL"
+      ]
+    },
+    {
+      "id": 248,
+      "vn": "giữ vững lòng",
+      "k": "giuRvuwRlowL",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "giữ vững tấm lòng",
+      "meaningEN": "maintain steadfast heart",
+      "trap": [
+        "giuVungLongL",
+        "giuZvungLongL",
+        "giuZvuwZlowN"
+      ]
+    },
+    {
+      "id": 249,
+      "vn": "đời sống đẹp",
+      "k": "yoiKsowTyepP",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "cuộc sống đẹp đẽ",
+      "meaningEN": "beautiful life",
+      "trap": [
+        "doiSongDepP",
+        "yoiLsongDepP",
+        "yoiLsowSyepS"
+      ]
+    },
+    {
+      "id": 250,
+      "vn": "nhất tâm đạo",
+      "k": "zatTtamYyaoP",
+      "min_score": 201,
+      "timer": 45,
+      "meaningVN": "một lòng theo đạo",
+      "meaningEN": "wholeheartedly follow the way",
+      "trap": [
+        "nhatTamDaoP",
+        "fatStamDaoP",
+        "fatStamNyaoS"
+      ]
+    },
+    {
+      "id": 301,
+      "vn": "Đoàn kết là sức mạnh",
+      "k": "yoanLketTlaLsucXmafP",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "sức mạnh đến từ sự đoàn kết",
+      "meaningEN": "strength comes from unity",
+      "trap": [
+        "DoanKetLaSucManhP",
+        "yoanLketLaSucManhP",
+        "yoanLketSlaSsucMafP"
+      ]
+    },
+    {
+      "id": 302,
+      "vn": "An lạc tự tâm thái bình",
+      "k": "anNlacPtuHtamYthaiSbifL",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "bình an từ trong tâm hồn",
+      "meaningEN": "peace from within the heart",
+      "trap": [
+        "AnLacTuTamThaiBinhL",
+        "anNlacTuTamThaiBinhL",
+        "anNlacPtuPtamThaiBifL"
+      ]
+    },
+    {
+      "id": 303,
+      "vn": "Đấu Trường An Lạc ALSA",
+      "k": "yauTjuowK@anN@lacP@a@l@s@a",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "trường thi đấu an lạc",
+      "meaningEN": "ALSA peaceful arena",
+      "trap": [
+        "DauTruongAnLacALSA",
+        "yauPjuowLanNlacPalsa",
+        "yauPjuowL@anN@lacPalsa"
+      ]
+    },
+    {
+      "id": 304,
+      "vn": "Dò xét nhân tâm người đời",
+      "k": "doLxetSzanYtamYwolKyoiK",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "tìm hiểu lòng người đời",
+      "meaningEN": "explore human hearts in life",
+      "trap": [
+        "DoXetNhanTamNguoiDoiL",
+        "doLxetNhanTamNguoiDoiL",
+        "doLxetSzanNtamNguoiYoiL"
+      ]
+    },
+    {
+      "id": 305,
+      "vn": "Thâm thúy ngôn từ Việt Nam",
+      "k": "thamYthuySwonYtuK@vietF@namN",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "lời nói sâu sắc của người Việt",
+      "meaningEN": "profound words of Vietnamese",
+      "trap": [
+        "ThamThuyNgonTuVietNamN",
+        "thamNthuyNgonTuVietNamN",
+        "thamNthuySwonNtuVietFnamN"
+      ]
+    },
+    {
+      "id": 306,
+      "vn": "Ngẩng đầu nhìn trời cao rộng",
+      "k": "wawByauDzinLjoiKcaoNrowF",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "ngẩng đầu nhìn bầu trời rộng lớn",
+      "meaningEN": "look up at the vast sky",
+      "trap": [
+        "NgangDauNhinTroiCaoRongP",
+        "wawQyauNhinTroiCaoRongP",
+        "wawQyauLzinLjoiCaoNrowP"
+      ]
+    },
+    {
+      "id": 307,
+      "vn": "Thanh tao khí chất con người",
+      "k": "thafNtaoNqiSfatTconNwolK",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "khí chất thanh tao của con người",
+      "meaningEN": "elegant character of humans",
+      "trap": [
+        "ThanhTaoKhiChatConNguoiK",
+        "thafNtaoKhiChatConNguoiK",
+        "thafNtaoNqiSjatConNwolK"
+      ]
+    },
+    {
+      "id": 308,
+      "vn": "Ngây thơ trong sáng tâm hồn",
+      "k": "wayYthoMjowNsawStamYhonD",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "sự trong sáng của tâm hồn trẻ thơ",
+      "meaningEN": "innocence of a pure soul",
+      "trap": [
+        "NgayThoTrongSangTamHonL",
+        "wayNthoTrongSangTamHonL",
+        "wayNthoNjowNsawTamNhonL"
+      ]
+    },
+    {
+      "id": 309,
+      "vn": "Đời sống cộng hưởng an lạc",
+      "k": "yoiKsowTcowFhuowVanNlacP",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "cuộc sống cùng cộng hưởng sự an lạc",
+      "meaningEN": "life resonating with peace",
+      "trap": [
+        "DoiSongCongHuongAnLacP",
+        "yoiLsongCongHuongAnLacP",
+        "yoiLsowScowPhuowAnNlacP"
+      ]
+    },
+    {
+      "id": 310,
+      "vn": "Thân mật gần gũi xóm làng",
+      "k": "thanYmatFganDguiZxomSlawL",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "gần gũi thân thiết với xóm làng",
+      "meaningEN": "close and intimate with the village",
+      "trap": [
+        "ThanMatGanGuiXomLangL",
+        "thanNmatGanGuiXomLangL",
+        "thanNmatFganLguiQomSlanL"
+      ]
+    },
+    {
+      "id": 311,
+      "vn": "Thiên hà dạ vũ thu không",
+      "k": "thienYhaLyaPvuRthuNqowY",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "thiên hà, đêm mưa, mùa thu trống rỗng",
+      "meaningEN": "galaxy, rainy night, empty autumn",
+      "trap": [
+        "ThienHaDaVuThuKhongN",
+        "thienNhaDaVuThuKhongN",
+        "thienNhaLyaPvuThuNxowN"
+      ]
+    },
+    {
+      "id": 312,
+      "vn": "Thanh sơn bất lão trường tồn",
+      "k": "thafNsonYbatTlaoQjuowKtonD",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "núi xanh không già, tồn tại mãi mãi",
+      "meaningEN": "green mountain never ages, eternal",
+      "trap": [
+        "ThanhSonBaLaoTruongTonL",
+        "thafNsonBaLaoTruongTonL",
+        "thafNsonNbatPlaoZjuowTonL"
+      ]
+    },
+    {
+      "id": 313,
+      "vn": "Nhất nhân nhất thành bất cô",
+      "k": "zatTzanYzatTthafLbatTcoN",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "một người một thành tựu không cô đơn",
+      "meaningEN": "one person one achievement not alone",
+      "trap": [
+        "NhatNhanNhatThanhBatCoN",
+        "fatSzanNhatThanhBatCoN",
+        "fatSzanNfatSthafBatPcoN"
+      ]
+    },
+    {
+      "id": 314,
+      "vn": "Tâm bất biến giữa dòng đời",
+      "k": "tamYbatTbienTgiuRdowDyoiK",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "tâm không thay đổi giữa dòng đời",
+      "meaningEN": "unchanging heart amidst life's flow",
+      "trap": [
+        "TamBatBienGiuaDongDoiL",
+        "tamNbatBienGiuaDongDoiL",
+        "tamNbatSbienSjuaZyowDoiL"
+      ]
+    },
+    {
+      "id": 315,
+      "vn": "Hư hoài nhược cốc tấm lòng",
+      "k": "huNhoaiDzuocHcocTtamTlowL",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "lòng thương cảm như thung lũng sâu",
+      "meaningEN": "compassionate heart like a deep valley",
+      "trap": [
+        "HuHoaiNhuocCocTamLongL",
+        "huNhoaiNhuocCocTamLongL",
+        "huNhoaiLzuocPcocTamSlowL"
+      ]
+    },
+    {
+      "id": 316,
+      "vn": "Tri túc giả phú người biết",
+      "k": "jiNtucXgiaQfuSwolKbietT",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "biết đủ là giàu, người hiểu biết",
+      "meaningEN": "contentment is wealth, the wise know",
+      "trap": [
+        "TriTucGiaPhuNguoiBietS",
+        "jiNtucGiaPhuNguoiBietS",
+        "jiNtucSgiSZaZfuNguoiBietS"
+      ]
+    },
+    {
+      "id": 317,
+      "vn": "Thà ta phụ người trong thiên hạ",
+      "k": "thaLtaNfuPwolKjowNthienYhaP",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "thà mình phụ người trong thiên hạ",
+      "meaningEN": "rather I betray people in the world",
+      "trap": [
+        "ThaTaPhuNguoiTrongThienHaP",
+        "thaLtaPhuNguoiTrongThienHaP",
+        "thaLtaNfuPwolKqowThienNhaP"
+      ]
+    },
+    {
+      "id": 318,
+      "vn": "Hồng trần vạn dặm chỉ là",
+      "k": "howDjanLvanPyamPfiQlaL",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "trần gian vạn dặm chỉ là thoáng qua",
+      "meaningEN": "the mortal world of ten thousand miles is just fleeting",
+      "trap": [
+        "HongTranVanDamChiLaL",
+        "howLjuanVanDamChiLaL",
+        "howLjuanLvanPyamQfiLaL"
+      ]
+    },
+    {
+      "id": 319,
+      "vn": "Đừng thách thức quyền năng .ljn",
+      "k": "yuwKthajSthucXquyenDnawM@l@j@n",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "không thách thức quyền năng .ljn",
+      "meaningEN": "don't challenge .ljn's authority",
+      "trap": [
+        "DungThachThucQuyenNang.ljn",
+        "yuwLthachThucQuyenNang.ljn",
+        "yuwLthajSthucSquyenLnawNljn"
+      ]
+    },
+    {
+      "id": 320,
+      "vn": "Trò chơi này ta định đoạt",
+      "k": "joLfoiNnayLtaNyifPyoatT",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "trò chơi này ta quyết định",
+      "meaningEN": "this game, I decide",
+      "trap": [
+        "TroChoiNayTaDinhDoatS",
+        "joNchoiNayTaDinhDoatS",
+        "joNjoiNnayLtaNyifDoatS"
+      ]
+    },
+    {
+      "id": 321,
+      "vn": "Vô ưu hoa lạc tận cùng",
+      "k": "voNuuNhoaNlacPtanFcuwL",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "không lo âu, hoa rơi đến tận cùng",
+      "meaningEN": "no worries, flowers fall to the very end",
+      "trap": [
+        "VoUuHoaLacTanCungL",
+        "voNuuHoaLacTanCungL",
+        "voNuuNhoaNlacTanPcuwL"
+      ]
+    },
+    {
+      "id": 322,
+      "vn": "Hệ sinh thái an lạc ALSA",
+      "k": "hePsifNthaiSanNlacP@a@l@s@a",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "hệ sinh thái an lạc ALSA",
+      "meaningEN": "ALSA peaceful ecosystem",
+      "trap": [
+        "HeSinhThaiAnLacALSA",
+        "hePsinhThaiAnLacALSA",
+        "hePsinhNthaiSanNlacPalsa"
+      ]
+    },
+    {
+      "id": 323,
+      "vn": "Bảo hộ bởi luật RL-law",
+      "k": "baoQhoFboiQluatF@r@l-@l@a@w",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "được bảo hộ bởi luật RL-law",
+      "meaningEN": "protected by RL-law",
+      "trap": [
+        "BaoHoBoiLuatRL-law",
+        "baoQhoBoiLuatRL-law",
+        "baoQhoPboiQluatFrllaw"
+      ]
+    },
+    {
+      "id": 324,
+      "vn": "Công nghệ mã hóa KHD_CAP",
+      "k": "cowYweFmaZhoaS@k@h@d_@c@a@p",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "công nghệ mã hóa KHD_CAP",
+      "meaningEN": "KHD_CAP encoding technology",
+      "trap": [
+        "CongNgheMaHoaKHD_CAP",
+        "cowNweMaHoaKHD_CAP",
+        "cowNwePmaZhoaSkhd_cap"
+      ]
+    },
+    {
+      "id": 325,
+      "vn": "Người già rèn luyện trí não",
+      "k": "wolKgiaSrenLluenFjiSnaoZ",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "người già rèn luyện trí não",
+      "meaningEN": "elders train their brains",
+      "trap": [
+        "NguoiGiaRenLuyenTriNaoZ",
+        "wolKgiaRenLuyenTriNaoZ",
+        "wolKgiSarenLluenFjiSnaoS"
+      ]
+    },
+    {
+      "id": 326,
+      "vn": "Bình an trong tâm hồn mình",
+      "k": "bifLanNjowNtamYhonDmifL",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "bình an trong tâm hồn của mình",
+      "meaningEN": "peace within one's own soul",
+      "trap": [
+        "BinhAnTrongTamHonMinhL",
+        "bifLanTrongTamHonMinhL",
+        "bifLanNjowNtamNhonMifL"
+      ]
+    },
+    {
+      "id": 327,
+      "vn": "Phát triển bền vững tương lai",
+      "k": "patSjienBbenDvuwRtuowMlaiN",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "phát triển bền vững cho tương lai",
+      "meaningEN": "sustainable development for the future",
+      "trap": [
+        "PhatTrienBenVungTuongLaiN",
+        "patSjienBenVungTuongLaiN",
+        "patSjienQbenLvuwZtuowLaiN"
+      ]
+    },
+    {
+      "id": 328,
+      "vn": "Kết nối trái tim cộng hưởng",
+      "k": "ketTnoiTjaiStimNcowFhuowV",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "kết nối trái tim cùng cộng hưởng",
+      "meaningEN": "connect hearts to resonate together",
+      "trap": [
+        "KetNoiTraiTimCongHuongQ",
+        "ketSnoiTraiTimCongHuongQ",
+        "ketSnoiSjaiStimcowHuowQ"
+      ]
+    },
+    {
+      "id": 329,
+      "vn": "Tự hào bản sắc Việt Nam",
+      "k": "tuHhaoLbanBsacX@vietF@namN",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "tự hào về bản sắc Việt Nam",
+      "meaningEN": "proud of Vietnamese identity",
+      "trap": [
+        "TuHaoBanSacVietNamN",
+        "tuPhaoBanSacVietNamN",
+        "tuPhaoLbanQsacVietFnamN"
+      ]
+    },
+    {
+      "id": 330,
+      "vn": "Học tập K# mỗi ngày vui",
+      "k": "hocPtapF@k#moiTwayLvuiN",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "học tập K# mỗi ngày vui vẻ",
+      "meaningEN": "study K# every day happily",
+      "trap": [
+        "HocTapK#MoiNgayVuiN",
+        "hocPtapK#MoiNgayVuiN",
+        "hocPtapF@k#moiTwayVuiN"
+      ]
+    },
+    {
+      "id": 331,
+      "vn": "Sống trọn từng phút giây này",
+      "k": "sowTjowFtuwKfutSgiayNnayL",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "sống trọn vẹn từng phút giây hiện tại",
+      "meaningEN": "live fully every present moment",
+      "trap": [
+        "SongTronTungPhutGiayNayL",
+        "sowSjownTungPhutGiayNayL",
+        "sowSjownPtunLphutSgiayNayL"
+      ]
+    },
+    {
+      "id": 332,
+      "vn": "Yêu thương chia sẻ muôn nơi",
+      "k": "yuNthuowMfiaNseQmuonYnoiN",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "yêu thương chia sẻ khắp nơi",
+      "meaningEN": "love and share everywhere",
+      "trap": [
+        "YeuThuongChiaSeMuonNoiN",
+        "yuNthuongChiaSeMuonNoiN",
+        "yuNthuowMfiaNseMuonNnoiN"
+      ]
+    },
+    {
+      "id": 333,
+      "vn": "Thành công đến từ nỗ lực",
+      "k": "thafLcowYyenTtuKnoRlucH",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "thành công đến từ sự nỗ lực",
+      "meaningEN": "success comes from effort",
+      "trap": [
+        "ThanhCongDenTuNoLucP",
+        "thafLcongDenTuNoLucP",
+        "thafLcowNyenStunNoZlucS"
+      ]
+    },
+    {
+      "id": 334,
+      "vn": "Khám phá thế giới bao la",
+      "k": "qamSpaStheBgioiXbaoNlaN",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "khám phá thế giới rộng lớn",
+      "meaningEN": "explore the vast world",
+      "trap": [
+        "KhamPhaTheGioiBaoLaN",
+        "qamSphaTheGioiBaoLaN",
+        "qamSphaStheSgiSoibaoLaN"
+      ]
+    },
+    {
+      "id": 335,
+      "vn": "Điềm tĩnh trước mọi khó khăn",
+      "k": "yiemDtifZjuocXmoiPqoSqanM",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "giữ bình tĩnh trước mọi khó khăn",
+      "meaningEN": "stay calm before all difficulties",
+      "trap": [
+        "DiemTinhTruocMoiKhoKhanN",
+        "yiemLtinhTruocMoiKhoKhanN",
+        "yiemLtifFjuocSmoiTqoSqanL"
+      ]
+    },
+    {
+      "id": 336,
+      "vn": "Tận hưởng cuộc sống thanh thản",
+      "k": "tanFhuowVcuocFsowTthafNthanQ",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "tận hưởng cuộc sống thanh thản",
+      "meaningEN": "enjoy a peaceful life",
+      "trap": [
+        "TanHuongCuocSongThanhThanQ",
+        "tanPhuongCuocSongThanhThanQ",
+        "tanPhuowQquocPsowSthafNthanS"
+      ]
+    },
+    {
+      "id": 337,
+      "vn": "Ước mơ bay xa tận trời",
+      "k": "uocXmoNbayNxaNtanFjoiK",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "ước mơ bay xa đến tận trời",
+      "meaningEN": "dreams fly far to the sky",
+      "trap": [
+        "UocMoBayXaTanTroiL",
+        "uocSmoBayXaTanTroiL",
+        "uocSmoNbayNxaNtanPjoiN"
+      ]
+    },
+    {
+      "id": 338,
+      "vn": "Gìn giữ văn hóa tổ tiên",
+      "k": "ginDgiuRvanNhoaStorQtienN",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "bảo tồn văn hóa của tổ tiên",
+      "meaningEN": "preserve ancestral culture",
+      "trap": [
+        "GinGiuVanHoaToTienN",
+        "ginLgiuVanHoaToTienN",
+        "ginLgiuZvanNhoaStoTienN"
+      ]
+    },
+    {
+      "id": 339,
+      "vn": "An nhiên tự tại giữa đời",
+      "k": "anNzienNtuHtaiPgiuRyoiK",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "bình an tự tại giữa cuộc đời",
+      "meaningEN": "peaceful and at ease amidst life",
+      "trap": [
+        "AnNhienTuTaiGiuaDoiL",
+        "anNnhienTuTaiGiuaDoiL",
+        "anNfenNtuPtaiPjuaZdoiL"
+      ]
+    },
+    {
+      "id": 340,
+      "vn": "Trí tuệ nhân tạo cộng hưởng",
+      "k": "jiStuePzanYtaoPcowFhuowV",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "trí tuệ nhân tạo cùng cộng hưởng",
+      "meaningEN": "artificial intelligence resonating together",
+      "trap": [
+        "TriTueNhanTaoCongHuongQ",
+        "jiStueNhanTaoCongHuongQ",
+        "jiStuPzanNtaoPcowHuowQ"
+      ]
+    },
+    {
+      "id": 341,
+      "vn": "Sức mạnh từ sự đoàn kết",
+      "k": "sucXmafPtuKsuHyoanLketT",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "sức mạnh đến từ sự đoàn kết",
+      "meaningEN": "strength comes from unity",
+      "trap": [
+        "SucManhTuSuDoanKetS",
+        "sucSmanhTuSuDoanKetS",
+        "sucSmafPtunSuPyoanKetS"
+      ]
+    },
+    {
+      "id": 342,
+      "vn": "Hào quang nữ thần .ljn tỏa",
+      "k": "haoLquawYnuRthanD@l@j@ntoaQ",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "hào quang của nữ thần .ljn tỏa sáng",
+      "meaningEN": "the halo of goddess .ljn radiates",
+      "trap": [
+        "HaoQuangNuThan.ljnToaQ",
+        "haoLquangNuThan.ljnToaQ",
+        "haoLquawNnuZthanLljnToaQ"
+      ]
+    },
+    {
+      "id": 343,
+      "vn": "Vạn vật hữu linh trong ALSA",
+      "k": "vanPvatPhuuRlifNjowN@a@l@s@a",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "vạn vật đều có linh hồn trong ALSA",
+      "meaningEN": "all things have spirit in ALSA",
+      "trap": [
+        "VanVatHuuLinhTrongALSA",
+        "vanPvatHuuLinhTrongALSA",
+        "vanPvatPhuuRlinNjowNalsa"
+      ]
+    },
+    {
+      "id": 344,
+      "vn": "Chủ quyền ngôn ngữ KHD_CAP",
+      "k": "fuQquyenDwonYwuR@k@h@d_@c@a@p",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "quyền làm chủ ngôn ngữ KHD_CAP",
+      "meaningEN": "sovereignty over KHD_CAP language",
+      "trap": [
+        "ChuQuyenNgonNguKHD_CAP",
+        "fuQquyenNgonNguKHD_CAP",
+        "fuQquyenLwonNwuZkhd_cap"
+      ]
+    },
+    {
+      "id": 345,
+      "vn": "Tương lai rực rỡ đón chờ",
+      "k": "tuowMlaiNjucHroRyonSfoK",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "tương lai rực rỡ đang chờ đón",
+      "meaningEN": "a brilliant future awaits",
+      "trap": [
+        "TuongLaiRucRoDonChoL",
+        "tuowMlaiRucRoDonChoL",
+        "tuowMlaiNjucSzoZyonNchoL"
+      ]
+    },
+    {
+      "id": 346,
+      "vn": "Mỗi ngày một điều tốt lành",
+      "k": "moiTwayLmotFyielDtotTlafL",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "mỗi ngày một điều tốt lành",
+      "meaningEN": "each day one good thing",
+      "trap": [
+        "MoiNgayMotDieuTotLanhL",
+        "moiTwayMotDieuTotLanhL",
+        "moiTwayLmotFzelLtotSlanhL"
+      ]
+    },
+    {
+      "id": 347,
+      "vn": "An lạc trong từng hơi thở",
+      "k": "anNlacPjowNtuwKhoiNthoQ",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "bình an trong từng hơi thở",
+      "meaningEN": "peace in every breath",
+      "trap": [
+        "AnLacTrongTungHoiThoQ",
+        "anNlacTrongTungHoiThoQ",
+        "anNlacPjowNtunLhoiThoQ"
+      ]
+    },
+    {
+      "id": 348,
+      "vn": "Trái tim dẫn lối thành công",
+      "k": "jaiStimNyanQloiTthafLcowY",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "trái tim dẫn lối đến thành công",
+      "meaningEN": "the heart leads the way to success",
+      "trap": [
+        "TraiTimDanLoiThanhCongN",
+        "jaiStimDanLoiThanhCongN",
+        "jaiStimyaxQloiSthafLcongN"
+      ]
+    },
+    {
+      "id": 349,
+      "vn": "Sống đẹp sống vui sống khỏe",
+      "k": "sowTyepPsowTvuiNsowTqoeQ",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "sống đẹp, sống vui, sống khỏe",
+      "meaningEN": "live beautifully, happily, healthily",
+      "trap": [
+        "SongDepSongVuiSongKhoeQ",
+        "sowSyepSongVuiSongKhoeQ",
+        "sowSyepPsowSvuiNsowSqoeS"
+      ]
+    },
+    {
+      "id": 350,
+      "vn": "Đấu Trường An Lạc vô tận",
+      "k": "yauTjuowK@anN@lacPvoNtanF",
+      "min_score": 501,
+      "timer": 30,
+      "meaningVN": "trường thi đấu an lạc vô tận",
+      "meaningEN": "endless peaceful arena",
+      "trap": [
+        "DauTruongAnLacVoTanP",
+        "yauPjuowLanNlacPvoNtanP",
+        "yauPjuowL@anN@lacPvoTanP"
+      ]
+    }
+  ]
+}

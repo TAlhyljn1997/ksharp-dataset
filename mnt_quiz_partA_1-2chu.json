@@ -1,0 +1,2066 @@
+{
+  "version": "K# v2.3 — Zero‑Shimmer Operational Protocol (IMMUTABLE)",
+  "approved_by": ".ljn Supreme Administrator",
+  "audit_status": "100% Zero Shimmer - Verified by .ljn Authority",
+  "file_type": "Part A: Tu don (1 chu) & Tu ghep (2 chu)",
+  "id_range": "1-150",
+  "protocol_rules": {
+    "step_by_step_encoding": [
+      "Step 1: Onset Law (đ=y, tr=j, ch=f, nh=z, kh=q, ng/ngh=w, ph=p, d=d)",
+      "Step 2: Rime Law (iêu=el, yêu=yu, ươi/uôi=ol, uyên=yln)",
+      "Step 3: Coda Law (ng=w, nh=f, ch=j)",
+      "Step 4: CAP Matrix (Append uppercase tone/variant character)"
+    ],
+    "step_by_step_decoding": [
+      "Step 1: CAP Law (Identify tone & variant from uppercase final)",
+      "Step 2: Coda Law (w=ng, f=nh, j=ch)",
+      "Step 3: Nucleus Law (ol=ươi/uôi, el=iêu, yu=yêu)",
+      "Step 4: Onset Law (y=đ, j=tr, f=ch, z=nh, q=kh, w=ng, d=d)"
+    ],
+    "onset_mapping": {
+      "đ": "y",
+      "tr": "j",
+      "ch": "f",
+      "nh": "z",
+      "kh": "q",
+      "ng": "w",
+      "ngh": "w",
+      "ph": "p",
+      "d": "d"
+    },
+    "rime_mapping": {
+      "iêu": "iu",
+      "yêu": "yu",
+      "ươi": "ol",
+      "uôi": "ol",
+      "uyên": "yln",
+      "uyết": "ylt",
+      "uyển": "ylv"
+    },
+    "coda_mapping": {
+      "ng": "w",
+      "nh": "f",
+      "ch": "j"
+    },
+    "cap_matrix": {
+      "Ngang": "N-Y-M",
+      "Sắc": "S-T-X",
+      "Huyền": "L-D-K",
+      "Hỏi": "Q-B-V",
+      "Nặng": "P-F-H",
+      "Ngã": "Z-G-R"
+    }
+  },
+  "tier_system": {
+    "1": {
+      "name": "Thiền Định",
+      "timer": null,
+      "logic": "No timer cho Elders"
+    },
+    "2": {
+      "name": "Thư Thái",
+      "timer": 60,
+      "logic": "Thật chậm cho người già"
+    },
+    "3": {
+      "name": "An Nhiên",
+      "timer": 45,
+      "logic": "Trung bình"
+    },
+    "4": {
+      "name": "Trường Sinh",
+      "timer": 5,
+      "logic": "Nhanh - Thử thách Elders"
+    }
+  },
+  "mandatory_tests": {
+    "danh": "dafN",
+    "đúng": "yuwS",
+    "trường": "juowK"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "vn": "danh",
+      "k": "dafN",
+      "min_score": 0,
+      "meaningVN": "danh tiếng",
+      "meaningEN": "name/fame",
+      "trap": [
+        "danhN",
+        "yafN",
+        "dafL"
+      ]
+    },
+    {
+      "id": 2,
+      "vn": "đạo",
+      "k": "yaoP",
+      "min_score": 0,
+      "meaningVN": "con đường, đạo lý",
+      "meaningEN": "path, way, doctrine",
+      "trap": [
+        "daoP",
+        "dafP",
+        "yaoL"
+      ]
+    },
+    {
+      "id": 3,
+      "vn": "nhân",
+      "k": "zanY",
+      "min_score": 0,
+      "meaningVN": "con người, nhân từ",
+      "meaningEN": "human, benevolent",
+      "trap": [
+        "nhanN",
+        "fanN",
+        "zanL"
+      ]
+    },
+    {
+      "id": 4,
+      "vn": "tâm",
+      "k": "tamY",
+      "min_score": 0,
+      "meaningVN": "trái tim, tâm trí",
+      "meaningEN": "heart, mind",
+      "trap": [
+        "thafN",
+        "tamL",
+        "jamN"
+      ]
+    },
+    {
+      "id": 5,
+      "vn": "trí",
+      "k": "jiS",
+      "min_score": 0,
+      "meaningVN": "trí tuệ, thông minh",
+      "meaningEN": "wisdom, intellect",
+      "trap": [
+        "triS",
+        "chiS",
+        "jiL"
+      ]
+    },
+    {
+      "id": 6,
+      "vn": "nghĩa",
+      "k": "wiZ",
+      "min_score": 0,
+      "meaningVN": "nghĩa khí, ý nghĩa",
+      "meaningEN": "righteousness, meaning",
+      "trap": [
+        "ngiZ",
+        "viZ",
+        "wiS"
+      ]
+    },
+    {
+      "id": 7,
+      "vn": "lễ",
+      "k": "leG",
+      "min_score": 0,
+      "meaningVN": "lễ nghĩa, nghi lễ",
+      "meaningEN": "ritual, propriety",
+      "trap": [
+        "leS",
+        "neZ",
+        "leL"
+      ]
+    },
+    {
+      "id": 8,
+      "vn": "trung",
+      "k": "juwN",
+      "min_score": 0,
+      "meaningVN": "trung thành, trung tâm",
+      "meaningEN": "loyal, center",
+      "trap": [
+        "chuwN",
+        "truwN",
+        "juwL"
+      ]
+    },
+    {
+      "id": 9,
+      "vn": "hiếu",
+      "k": "hiuT",
+      "min_score": 0,
+      "meaningVN": "hiếu thảo",
+      "meaningEN": "filial piety",
+      "trap": [
+        "hieuF",
+        "hieuL",
+        "hieuQ"
+      ]
+    },
+    {
+      "id": 10,
+      "vn": "hòa",
+      "k": "hoaL",
+      "min_score": 0,
+      "meaningVN": "hòa bình, hòa hợp",
+      "meaningEN": "peace, harmony",
+      "trap": [
+        "hoaN",
+        "hoaS",
+        "hoaP"
+      ]
+    },
+    {
+      "id": 11,
+      "vn": "bình",
+      "k": "bifL",
+      "min_score": 0,
+      "meaningVN": "bình an, bình đẳng",
+      "meaningEN": "peace, equality",
+      "trap": [
+        "binhL",
+        "vifL",
+        "bifN"
+      ]
+    },
+    {
+      "id": 12,
+      "vn": "an",
+      "k": "anN",
+      "min_score": 0,
+      "meaningVN": "an toàn, an lạc",
+      "meaningEN": "safety, peace",
+      "trap": [
+        "anL",
+        "afN",
+        "hanN"
+      ]
+    },
+    {
+      "id": 13,
+      "vn": "lạc",
+      "k": "lacP",
+      "min_score": 0,
+      "meaningVN": "an lạc, vui vẻ",
+      "meaningEN": "joy, happiness",
+      "trap": [
+        "lacS",
+        "nacP",
+        "lacF"
+      ]
+    },
+    {
+      "id": 14,
+      "vn": "đức",
+      "k": "yucX",
+      "min_score": 0,
+      "meaningVN": "đạo đức, phẩm chất",
+      "meaningEN": "virtue, morality",
+      "trap": [
+        "ducS",
+        "yucP",
+        "yucF"
+      ]
+    },
+    {
+      "id": 15,
+      "vn": "thành",
+      "k": "thafL",
+      "min_score": 0,
+      "meaningVN": "thành công, thành thật",
+      "meaningEN": "success, honesty",
+      "trap": [
+        "thanhL",
+        "thafN",
+        "thafS"
+      ]
+    },
+    {
+      "id": 16,
+      "vn": "công",
+      "k": "cowY",
+      "min_score": 0,
+      "meaningVN": "công bằng, thành công",
+      "meaningEN": "justice, success",
+      "trap": [
+        "congN",
+        "kowN",
+        "cowL"
+      ]
+    },
+    {
+      "id": 17,
+      "vn": "minh",
+      "k": "mifN",
+      "min_score": 0,
+      "meaningVN": "sáng suốt, thông minh",
+      "meaningEN": "bright, intelligent",
+      "trap": [
+        "minhN",
+        "mifL",
+        "nifN"
+      ]
+    },
+    {
+      "id": 18,
+      "vn": "chính",
+      "k": "fifS",
+      "min_score": 0,
+      "meaningVN": "chính trực, chính thức",
+      "meaningEN": "upright, official",
+      "trap": [
+        "chinhS",
+        "fifP",
+        "fifL"
+      ]
+    },
+    {
+      "id": 19,
+      "vn": "trực",
+      "k": "jucH",
+      "min_score": 0,
+      "meaningVN": "trung trực, thẳng thắn",
+      "meaningEN": "integrity, straightforward",
+      "trap": [
+        "trucS",
+        "chucS",
+        "jucP"
+      ]
+    },
+    {
+      "id": 20,
+      "vn": "liêm",
+      "k": "liemY",
+      "min_score": 0,
+      "meaningVN": "liêm khiết, liêm chính",
+      "meaningEN": "incorruptible, honest",
+      "trap": [
+        "liemL",
+        "diemN",
+        "niemN"
+      ]
+    },
+    {
+      "id": 21,
+      "vn": "khiết",
+      "k": "qietT",
+      "min_score": 0,
+      "meaningVN": "thanh khiết, trong sạch",
+      "meaningEN": "pure, clean",
+      "trap": [
+        "khietS",
+        "kietS",
+        "qietP"
+      ]
+    },
+    {
+      "id": 22,
+      "vn": "tín",
+      "k": "tinS",
+      "min_score": 0,
+      "meaningVN": "tín nhiệm, uy tín",
+      "meaningEN": "trust, credibility",
+      "trap": [
+        "tifS",
+        "chinS",
+        "tinL"
+      ]
+    },
+    {
+      "id": 23,
+      "vn": "nghị",
+      "k": "wiP",
+      "min_score": 0,
+      "meaningVN": "nghị lực, thảo luận",
+      "meaningEN": "perseverance, discussion",
+      "trap": [
+        "ngiF",
+        "viF",
+        "wiS"
+      ]
+    },
+    {
+      "id": 24,
+      "vn": "dũng",
+      "k": "duwR",
+      "min_score": 0,
+      "meaningVN": "dũng cảm, mạnh mẽ",
+      "meaningEN": "bravery, courage",
+      "trap": [
+        "dungQ",
+        "yuwQ",
+        "duwS"
+      ]
+    },
+    {
+      "id": 25,
+      "vn": "cảm",
+      "k": "camQ",
+      "min_score": 0,
+      "meaningVN": "cảm xúc, cảm động",
+      "meaningEN": "emotion, moved",
+      "trap": [
+        "kamQ",
+        "camS",
+        "gamQ"
+      ]
+    },
+    {
+      "id": 26,
+      "vn": "nhẫn",
+      "k": "zanG",
+      "min_score": 0,
+      "meaningVN": "nhẫn nại, kiên nhẫn",
+      "meaningEN": "patience, endurance",
+      "trap": [
+        "nhanZ",
+        "fanZ",
+        "zanF"
+      ]
+    },
+    {
+      "id": 27,
+      "vn": "nại",
+      "k": "naiP",
+      "min_score": 0,
+      "meaningVN": "kiên nhẫn, nhẫn nại",
+      "meaningEN": "endurance, patience",
+      "trap": [
+        "naiF",
+        "laiP",
+        "daiP"
+      ]
+    },
+    {
+      "id": 28,
+      "vn": "kiên",
+      "k": "kienY",
+      "min_score": 0,
+      "meaningVN": "kiên định, bền bỉ",
+      "meaningEN": "steadfast, persistent",
+      "trap": [
+        "cienN",
+        "kienL",
+        "gienN"
+      ]
+    },
+    {
+      "id": 29,
+      "vn": "trì",
+      "k": "jiL",
+      "min_score": 0,
+      "meaningVN": "duy trì, trì trệ",
+      "meaningEN": "maintain, sustain",
+      "trap": [
+        "triL",
+        "chiL",
+        "jiS"
+      ]
+    },
+    {
+      "id": 30,
+      "vn": "bền",
+      "k": "benD",
+      "min_score": 0,
+      "meaningVN": "bền vững, lâu dài",
+      "meaningEN": "durable, lasting",
+      "trap": [
+        "benN",
+        "penL",
+        "venL"
+      ]
+    },
+    {
+      "id": 31,
+      "vn": "vững",
+      "k": "vuwR",
+      "min_score": 0,
+      "meaningVN": "kiên định, ổn định",
+      "meaningEN": "stable, firm",
+      "trap": [
+        "vungZ",
+        "duwZ",
+        "vuwF"
+      ]
+    },
+    {
+      "id": 32,
+      "vn": "định",
+      "k": "yifP",
+      "min_score": 0,
+      "meaningVN": "quyết định, ổn định",
+      "meaningEN": "decide, stable",
+      "trap": [
+        "dinhP",
+        "yifS",
+        "yifF"
+      ]
+    },
+    {
+      "id": 33,
+      "vn": "tĩnh",
+      "k": "tifZ",
+      "min_score": 0,
+      "meaningVN": "bình tĩnh, yên tĩnh",
+      "meaningEN": "calm, quiet",
+      "trap": [
+        "tinhQ",
+        "thifQ",
+        "tifS"
+      ]
+    },
+    {
+      "id": 34,
+      "vn": "hòa",
+      "k": "hoaL",
+      "min_score": 0,
+      "meaningVN": "hài hòa, hòa hợp",
+      "meaningEN": "harmony, blend",
+      "trap": [
+        "hoaN",
+        "hoaS",
+        "hoaP"
+      ]
+    },
+    {
+      "id": 35,
+      "vn": "hợp",
+      "k": "hopH",
+      "min_score": 0,
+      "meaningVN": "hợp tác, phù hợp",
+      "meaningEN": "cooperate, suitable",
+      "trap": [
+        "hopS",
+        "hocF",
+        "hopP"
+      ]
+    },
+    {
+      "id": 36,
+      "vn": "đoàn",
+      "k": "yoanL",
+      "min_score": 0,
+      "meaningVN": "đoàn kết, tập thể",
+      "meaningEN": "unity, group",
+      "trap": [
+        "doanL",
+        "yoanN",
+        "yoanS"
+      ]
+    },
+    {
+      "id": 37,
+      "vn": "kết",
+      "k": "ketT",
+      "min_score": 0,
+      "meaningVN": "kết nối, kết quả",
+      "meaningEN": "connect, result",
+      "trap": [
+        "ketP",
+        "getS",
+        "ketF"
+      ]
+    },
+    {
+      "id": 38,
+      "vn": "hữu",
+      "k": "huuR",
+      "min_score": 0,
+      "meaningVN": "bạn hữu, hữu nghị",
+      "meaningEN": "friend, friendship",
+      "trap": [
+        "huuQ",
+        "huuS",
+        "huuL"
+      ]
+    },
+    {
+      "id": 39,
+      "vn": "ái",
+      "k": "aiS",
+      "min_score": 0,
+      "meaningVN": "yêu thương, nhân ái",
+      "meaningEN": "love, affection",
+      "trap": [
+        "aiL",
+        "haiS",
+        "aiQ"
+      ]
+    },
+    {
+      "id": 40,
+      "vn": "từ",
+      "k": "tuK",
+      "min_score": 0,
+      "meaningVN": "từ bi, nhân từ",
+      "meaningEN": "compassion, benevolent",
+      "trap": [
+        "tuN",
+        "thuL",
+        "tuS"
+      ]
+    },
+    {
+      "id": 41,
+      "vn": "bi",
+      "k": "biN",
+      "min_score": 0,
+      "meaningVN": "thương xót, từ bi",
+      "meaningEN": "compassion, mercy",
+      "trap": [
+        "biL",
+        "viN",
+        "biS"
+      ]
+    },
+    {
+      "id": 42,
+      "vn": "hiền",
+      "k": "hienD",
+      "min_score": 0,
+      "meaningVN": "hiền lành, nhân hậu",
+      "meaningEN": "gentle, kind",
+      "trap": [
+        "hienN",
+        "hienS",
+        "hienF"
+      ]
+    },
+    {
+      "id": 43,
+      "vn": "hậu",
+      "k": "hauF",
+      "min_score": 0,
+      "meaningVN": "nhân hậu, hậu vận",
+      "meaningEN": "kind, later fortune",
+      "trap": [
+        "hauF",
+        "hauS",
+        "hauL"
+      ]
+    },
+    {
+      "id": 44,
+      "vn": "độ",
+      "k": "yoF",
+      "min_score": 0,
+      "meaningVN": "độ lượng, khoan dung",
+      "meaningEN": "magnanimity, tolerance",
+      "trap": [
+        "doP",
+        "yoS",
+        "yoF"
+      ]
+    },
+    {
+      "id": 45,
+      "vn": "lượng",
+      "k": "luowH",
+      "min_score": 0,
+      "meaningVN": "bao dung, độ lượng",
+      "meaningEN": "tolerance, generosity",
+      "trap": [
+        "luongP",
+        "duowP",
+        "luowS"
+      ]
+    },
+    {
+      "id": 46,
+      "vn": "khoan",
+      "k": "qoanN",
+      "min_score": 0,
+      "meaningVN": "khoan dung, rộng lượng",
+      "meaningEN": "lenient, tolerant",
+      "trap": [
+        "khoanN",
+        "qoanL",
+        "qoanS"
+      ]
+    },
+    {
+      "id": 47,
+      "vn": "dung",
+      "k": "duwN",
+      "min_score": 0,
+      "meaningVN": "bao dung, chứa đựng",
+      "meaningEN": "tolerance, contain",
+      "trap": [
+        "dungN",
+        "yuwN",
+        "duwL"
+      ]
+    },
+    {
+      "id": 48,
+      "vn": "nhượng",
+      "k": "zuowH",
+      "min_score": 0,
+      "meaningVN": "nhường nhịn, nhượng bộ",
+      "meaningEN": "yield, concede",
+      "trap": [
+        "nhuongP",
+        "fuowP",
+        "zuowS"
+      ]
+    },
+    {
+      "id": 49,
+      "vn": "nhịn",
+      "k": "zinP",
+      "min_score": 0,
+      "meaningVN": "nhẫn nhịn, kiềm chế",
+      "meaningEN": "endure, restrain",
+      "trap": [
+        "nhiF",
+        "finF",
+        "zinP"
+      ]
+    },
+    {
+      "id": 50,
+      "vn": "khiêm",
+      "k": "qiemY",
+      "min_score": 0,
+      "meaningVN": "khiêm tốn, nhún nhường",
+      "meaningEN": "modest, humble",
+      "trap": [
+        "khiamN",
+        "kiemN",
+        "qiemL"
+      ]
+    },
+    {
+      "id": 51,
+      "vn": "tốn",
+      "k": "tonT",
+      "min_score": 0,
+      "meaningVN": "khiêm tốn, tiết kiệm",
+      "meaningEN": "modest, frugal",
+      "trap": [
+        "tonP",
+        "tonF",
+        "tonL"
+      ]
+    },
+    {
+      "id": 52,
+      "vn": "tiết",
+      "k": "tietT",
+      "min_score": 0,
+      "meaningVN": "tiết kiệm, tiết chế",
+      "meaningEN": "frugal, restrain",
+      "trap": [
+        "tietP",
+        "thietS",
+        "dietS"
+      ]
+    },
+    {
+      "id": 53,
+      "vn": "kiệm",
+      "k": "kiemF",
+      "min_score": 0,
+      "meaningVN": "tiết kiệm, dè sẻn",
+      "meaningEN": "frugal, economical",
+      "trap": [
+        "kiemS",
+        "kiemP",
+        "giemF"
+      ]
+    },
+    {
+      "id": 54,
+      "vn": "cần",
+      "k": "canD",
+      "min_score": 0,
+      "meaningVN": "cần cù, chăm chỉ",
+      "meaningEN": "diligent, hardworking",
+      "trap": [
+        "canN",
+        "kanL",
+        "ganL"
+      ]
+    },
+    {
+      "id": 55,
+      "vn": "cù",
+      "k": "cuL",
+      "min_score": 0,
+      "meaningVN": "cần cù, siêng năng",
+      "meaningEN": "industrious, diligent",
+      "trap": [
+        "cuN",
+        "quL",
+        "cuS"
+      ]
+    },
+    {
+      "id": 56,
+      "vn": "chăm",
+      "k": "famM",
+      "min_score": 0,
+      "meaningVN": "chăm chỉ, siêng năng",
+      "meaningEN": "diligent, hardworking",
+      "trap": [
+        "chamN",
+        "famL",
+        "famS"
+      ]
+    },
+    {
+      "id": 57,
+      "vn": "chỉ",
+      "k": "fiQ",
+      "min_score": 0,
+      "meaningVN": "chăm chỉ, cẩn thận",
+      "meaningEN": "diligent, careful",
+      "trap": [
+        "chiQ",
+        "fiS",
+        "fiL"
+      ]
+    },
+    {
+      "id": 58,
+      "vn": "siêng",
+      "k": "siewY",
+      "min_score": 0,
+      "meaningVN": "siêng năng, chăm chỉ",
+      "meaningEN": "diligent, industrious",
+      "trap": [
+        "sienL",
+        "xienN",
+        "sienS"
+      ]
+    },
+    {
+      "id": 59,
+      "vn": "năng",
+      "k": "nawM",
+      "min_score": 0,
+      "meaningVN": "siêng năng, làm việc",
+      "meaningEN": "industrious, hardworking",
+      "trap": [
+        "nangN",
+        "nawL",
+        "nawS"
+      ]
+    },
+    {
+      "id": 60,
+      "vn": "cẩn",
+      "k": "canB",
+      "min_score": 0,
+      "meaningVN": "cẩn thận, tỉ mỉ",
+      "meaningEN": "careful, meticulous",
+      "trap": [
+        "canS",
+        "kanQ",
+        "canF"
+      ]
+    },
+    {
+      "id": 61,
+      "vn": "thận",
+      "k": "thanF",
+      "min_score": 0,
+      "meaningVN": "cẩn thận, thận trọng",
+      "meaningEN": "careful, cautious",
+      "trap": [
+        "thanS",
+        "thafF",
+        "thanP"
+      ]
+    },
+    {
+      "id": 62,
+      "vn": "trọng",
+      "k": "jowP",
+      "min_score": 0,
+      "meaningVN": "quan trọng, coi trọng",
+      "meaningEN": "important, value",
+      "trap": [
+        "trongP",
+        "jowS",
+        "jowF"
+      ]
+    },
+    {
+      "id": 63,
+      "vn": "tỉ",
+      "k": "tiQ",
+      "min_score": 0,
+      "meaningVN": "tỉ mỉ, cẩn thận",
+      "meaningEN": "meticulous, careful",
+      "trap": [
+        "tiS",
+        "tiL",
+        "thiQ"
+      ]
+    },
+    {
+      "id": 64,
+      "vn": "mỉ",
+      "k": "miQ",
+      "min_score": 0,
+      "meaningVN": "tỉ mỉ, chi tiết",
+      "meaningEN": "meticulous, detailed",
+      "trap": [
+        "miS",
+        "miL",
+        "niQ"
+      ]
+    },
+    {
+      "id": 65,
+      "vn": "chu",
+      "k": "fuN",
+      "min_score": 0,
+      "meaningVN": "chu đáo, cẩn thận",
+      "meaningEN": "thoughtful, thorough",
+      "trap": [
+        "chuL",
+        "juN",
+        "fuS"
+      ]
+    },
+    {
+      "id": 66,
+      "vn": "đáo",
+      "k": "yaoS",
+      "min_score": 0,
+      "meaningVN": "chu đáo, đến nơi",
+      "meaningEN": "thorough, arrive",
+      "trap": [
+        "daoS",
+        "yaoP",
+        "yaoL"
+      ]
+    },
+    {
+      "id": 67,
+      "vn": "tận",
+      "k": "tanF",
+      "min_score": 0,
+      "meaningVN": "tận tâm, hết lòng",
+      "meaningEN": "wholehearted, devoted",
+      "trap": [
+        "tanS",
+        "tanF",
+        "thanP"
+      ]
+    },
+    {
+      "id": 68,
+      "vn": "tụy",
+      "k": "tuyP",
+      "min_score": 0,
+      "meaningVN": "tận tụy, hết mình",
+      "meaningEN": "dedicated, devoted",
+      "trap": [
+        "tuyS",
+        "tuyL",
+        "thuyF"
+      ]
+    },
+    {
+      "id": 69,
+      "vn": "hy",
+      "k": "hyN",
+      "min_score": 0,
+      "meaningVN": "hy sinh, quên mình",
+      "meaningEN": "sacrifice, selflessness",
+      "trap": [
+        "hiN",
+        "hyL",
+        "hyS"
+      ]
+    },
+    {
+      "id": 70,
+      "vn": "sinh",
+      "k": "sifN",
+      "min_score": 0,
+      "meaningVN": "hy sinh, cuộc sống",
+      "meaningEN": "sacrifice, life",
+      "trap": [
+        "sinhS",
+        "xinhN",
+        "sinhL"
+      ]
+    },
+    {
+      "id": 71,
+      "vn": "quên",
+      "k": "quenY",
+      "min_score": 0,
+      "meaningVN": "quên mình, hy sinh",
+      "meaningEN": "forget oneself, sacrifice",
+      "trap": [
+        "quenL",
+        "quenS",
+        "quenF"
+      ]
+    },
+    {
+      "id": 72,
+      "vn": "vị",
+      "k": "viP",
+      "min_score": 0,
+      "meaningVN": "vị tha, không vị kỷ",
+      "meaningEN": "altruistic, selfless",
+      "trap": [
+        "viS",
+        "viL",
+        "biF"
+      ]
+    },
+    {
+      "id": 73,
+      "vn": "tha",
+      "k": "thaN",
+      "min_score": 0,
+      "meaningVN": "vị tha, tha thứ",
+      "meaningEN": "altruistic, forgive",
+      "trap": [
+        "thaL",
+        "thaS",
+        "thaF"
+      ]
+    },
+    {
+      "id": 74,
+      "vn": "kỷ",
+      "k": "kyQ",
+      "min_score": 0,
+      "meaningVN": "vị kỷ, ích kỷ",
+      "meaningEN": "selfish, egoistic",
+      "trap": [
+        "kiZ",
+        "kyS",
+        "kyL"
+      ]
+    },
+    {
+      "id": 75,
+      "vn": "ích",
+      "k": "ijS",
+      "min_score": 0,
+      "meaningVN": "ích kỷ, lợi ích",
+      "meaningEN": "selfish, benefit",
+      "trap": [
+        "ichS",
+        "icP",
+        "icF"
+      ]
+    },
+    {
+      "id": 76,
+      "vn": "lợi",
+      "k": "loiH",
+      "min_score": 0,
+      "meaningVN": "lợi ích, có lợi",
+      "meaningEN": "benefit, advantageous",
+      "trap": [
+        "loiS",
+        "loiF",
+        "loiL"
+      ]
+    },
+    {
+      "id": 77,
+      "vn": "hại",
+      "k": "haiP",
+      "min_score": 0,
+      "meaningVN": "tổn hại, có hại",
+      "meaningEN": "harm, damage",
+      "trap": [
+        "haiS",
+        "haiF",
+        "haiL"
+      ]
+    },
+    {
+      "id": 78,
+      "vn": "công",
+      "k": "cowY",
+      "min_score": 0,
+      "meaningVN": "công bằng, công lý",
+      "meaningEN": "fair, justice",
+      "trap": [
+        "congN",
+        "kowN",
+        "cowL"
+      ]
+    },
+    {
+      "id": 79,
+      "vn": "bằng",
+      "k": "bawK",
+      "min_score": 0,
+      "meaningVN": "công bằng, bình đẳng",
+      "meaningEN": "equal, just",
+      "trap": [
+        "bangL",
+        "bawN",
+        "bawS"
+      ]
+    },
+    {
+      "id": 80,
+      "vn": "lý",
+      "k": "lyS",
+      "min_score": 0,
+      "meaningVN": "công lý, lý lẽ",
+      "meaningEN": "justice, reason",
+      "trap": [
+        "liS",
+        "lyL",
+        "lyF"
+      ]
+    },
+    {
+      "id": 81,
+      "vn": "pháp",
+      "k": "papS",
+      "min_score": 0,
+      "meaningVN": "pháp luật, quy tắc",
+      "meaningEN": "law, rule",
+      "trap": [
+        "phapS",
+        "papP",
+        "papF"
+      ]
+    },
+    {
+      "id": 82,
+      "vn": "luật",
+      "k": "luatF",
+      "min_score": 0,
+      "meaningVN": "pháp luật, quy định",
+      "meaningEN": "law, regulation",
+      "trap": [
+        "luatS",
+        "luatP",
+        "luaF"
+      ]
+    },
+    {
+      "id": 83,
+      "vn": "tắc",
+      "k": "tacX",
+      "min_score": 0,
+      "meaningVN": "quy tắc, nguyên tắc",
+      "meaningEN": "rule, principle",
+      "trap": [
+        "tacP",
+        "tacF",
+        "thacS"
+      ]
+    },
+    {
+      "id": 84,
+      "vn": "chế",
+      "k": "feT",
+      "min_score": 0,
+      "meaningVN": "chế độ, thể chế",
+      "meaningEN": "regime, system",
+      "trap": [
+        "cheS",
+        "feP",
+        "feF"
+      ]
+    },
+    {
+      "id": 85,
+      "vn": "độ",
+      "k": "yoF",
+      "min_score": 0,
+      "meaningVN": "chế độ, trình độ",
+      "meaningEN": "regime, level",
+      "trap": [
+        "doP",
+        "yoS",
+        "yoF"
+      ]
+    },
+    {
+      "id": 86,
+      "vn": "thể",
+      "k": "theB",
+      "min_score": 0,
+      "meaningVN": "thể chế, hình thức",
+      "meaningEN": "system, form",
+      "trap": [
+        "theS",
+        "theL",
+        "theF"
+      ]
+    },
+    {
+      "id": 87,
+      "vn": "hình",
+      "k": "hifL",
+      "min_score": 0,
+      "meaningVN": "hình thức, dáng vẻ",
+      "meaningEN": "form, appearance",
+      "trap": [
+        "hinhL",
+        "hifN",
+        "hifS"
+      ]
+    },
+    {
+      "id": 88,
+      "vn": "thức",
+      "k": "thucX",
+      "min_score": 0,
+      "meaningVN": "hình thức, nhận thức",
+      "meaningEN": "form, recognition",
+      "trap": [
+        "thucP",
+        "thucF",
+        "thucL"
+      ]
+    },
+    {
+      "id": 89,
+      "vn": "nguyên",
+      "k": "wylnN",
+      "min_score": 0,
+      "meaningVN": "nguyên tắc, căn bản",
+      "meaningEN": "principle, basic",
+      "trap": [
+        "nguyenN",
+        "wylnL",
+        "wylnS"
+      ]
+    },
+    {
+      "id": 90,
+      "vn": "căn",
+      "k": "canM",
+      "min_score": 0,
+      "meaningVN": "căn bản, gốc rễ",
+      "meaningEN": "basic, foundation",
+      "trap": [
+        "canL",
+        "kanN",
+        "ganN"
+      ]
+    },
+    {
+      "id": 91,
+      "vn": "bản",
+      "k": "banB",
+      "min_score": 0,
+      "meaningVN": "căn bản, bản chất",
+      "meaningEN": "basic, essence",
+      "trap": [
+        "banS",
+        "banL",
+        "banF"
+      ]
+    },
+    {
+      "id": 92,
+      "vn": "gốc",
+      "k": "gocT",
+      "min_score": 0,
+      "meaningVN": "gốc rễ, nguồn gốc",
+      "meaningEN": "root, origin",
+      "trap": [
+        "gocP",
+        "gocF",
+        "gocL"
+      ]
+    },
+    {
+      "id": 93,
+      "vn": "rễ",
+      "k": "reG",
+      "min_score": 0,
+      "meaningVN": "gốc rễ, căn nguyên",
+      "meaningEN": "root, cause",
+      "trap": [
+        "reS",
+        "reL",
+        "reF"
+      ]
+    },
+    {
+      "id": 94,
+      "vn": "nguồn",
+      "k": "wuonD",
+      "min_score": 0,
+      "meaningVN": "nguồn gốc, xuất xứ",
+      "meaningEN": "origin, source",
+      "trap": [
+        "nguonL",
+        "wuonN",
+        "wuonS"
+      ]
+    },
+    {
+      "id": 95,
+      "vn": "xuất",
+      "k": "xuatT",
+      "min_score": 0,
+      "meaningVN": "xuất xứ, nguồn gốc",
+      "meaningEN": "origin, source",
+      "trap": [
+        "xuatS",
+        "suatP",
+        "suatF"
+      ]
+    },
+    {
+      "id": 96,
+      "vn": "xứ",
+      "k": "xuX",
+      "min_score": 0,
+      "meaningVN": "xuất xứ, địa phương",
+      "meaningEN": "origin, locality",
+      "trap": [
+        "xuQ",
+        "suS",
+        "suL"
+      ]
+    },
+    {
+      "id": 97,
+      "vn": "địa",
+      "k": "yiaP",
+      "min_score": 0,
+      "meaningVN": "địa phương, vùng đất",
+      "meaningEN": "local, region",
+      "trap": [
+        "diaP",
+        "yiaS",
+        "yiaF"
+      ]
+    },
+    {
+      "id": 98,
+      "vn": "phương",
+      "k": "puowM",
+      "min_score": 0,
+      "meaningVN": "địa phương, phương hướng",
+      "meaningEN": "local, direction",
+      "trap": [
+        "phuongN",
+        "puowL",
+        "puowS"
+      ]
+    },
+    {
+      "id": 99,
+      "vn": "vùng",
+      "k": "vuwK",
+      "min_score": 0,
+      "meaningVN": "vùng miền, khu vực",
+      "meaningEN": "region, area",
+      "trap": [
+        "vungL",
+        "duwL",
+        "vuwN"
+      ]
+    },
+    {
+      "id": 100,
+      "vn": "miền",
+      "k": "mienD",
+      "min_score": 0,
+      "meaningVN": "vùng miền, quê hương",
+      "meaningEN": "region, homeland",
+      "trap": [
+        "mienN",
+        "mienS",
+        "nienL"
+      ]
+    },
+    {
+      "id": 101,
+      "vn": "quê",
+      "k": "queY",
+      "min_score": 0,
+      "meaningVN": "quê hương, quê nhà",
+      "meaningEN": "homeland, hometown",
+      "trap": [
+        "queL",
+        "queS",
+        "queF"
+      ]
+    },
+    {
+      "id": 102,
+      "vn": "hương",
+      "k": "huowM",
+      "min_score": 0,
+      "meaningVN": "quê hương, hương vị",
+      "meaningEN": "homeland, flavor",
+      "trap": [
+        "huongN",
+        "huowL",
+        "huowS"
+      ]
+    },
+    {
+      "id": 103,
+      "vn": "nước",
+      "k": "nuocX",
+      "min_score": 0,
+      "meaningVN": "quốc gia, đất nước",
+      "meaningEN": "country, nation",
+      "trap": [
+        "nuocP",
+        "nuocF",
+        "nuocL"
+      ]
+    },
+    {
+      "id": 104,
+      "vn": "nhà",
+      "k": "zaL",
+      "min_score": 0,
+      "meaningVN": "quê nhà, gia đình",
+      "meaningEN": "home, family",
+      "trap": [
+        "nhaL",
+        "zaN",
+        "zaS"
+      ]
+    },
+    {
+      "id": 105,
+      "vn": "gia",
+      "k": "giaN",
+      "min_score": 0,
+      "meaningVN": "gia đình, quốc gia",
+      "meaningEN": "family, nation",
+      "trap": [
+        "giaN",
+        "daN",
+        "giL"
+      ]
+    },
+    {
+      "id": 106,
+      "vn": "đình",
+      "k": "yifL",
+      "min_score": 0,
+      "meaningVN": "gia đình, tạm dừng",
+      "meaningEN": "family, stop",
+      "trap": [
+        "dinhL",
+        "yifN",
+        "yifS"
+      ]
+    },
+    {
+      "id": 107,
+      "vn": "tộc",
+      "k": "tocF",
+      "min_score": 0,
+      "meaningVN": "gia tộc, dòng họ",
+      "meaningEN": "clan, lineage",
+      "trap": [
+        "tocS",
+        "tocF",
+        "thocP"
+      ]
+    },
+    {
+      "id": 108,
+      "vn": "dòng",
+      "k": "dowD",
+      "min_score": 0,
+      "meaningVN": "dòng họ, dòng sông",
+      "meaningEN": "lineage, river",
+      "trap": [
+        "dongL",
+        "yowL",
+        "dowN"
+      ]
+    },
+    {
+      "id": 109,
+      "vn": "họ",
+      "k": "hoP",
+      "min_score": 0,
+      "meaningVN": "dòng họ, họ tên",
+      "meaningEN": "surname, family name",
+      "trap": [
+        "hoS",
+        "hoL",
+        "hoF"
+      ]
+    },
+    {
+      "id": 110,
+      "vn": "tên",
+      "k": "tenY",
+      "min_score": 0,
+      "meaningVN": "họ tên, danh tính",
+      "meaningEN": "name, full name",
+      "trap": [
+        "tenL",
+        "tenS",
+        "tenF"
+      ]
+    },
+    {
+      "id": 111,
+      "vn": "tính",
+      "k": "tifS",
+      "min_score": 0,
+      "meaningVN": "danh tính, tính cách",
+      "meaningEN": "identity, character",
+      "trap": [
+        "tinhS",
+        "tifP",
+        "tifF"
+      ]
+    },
+    {
+      "id": 112,
+      "vn": "cách",
+      "k": "cajS",
+      "min_score": 0,
+      "meaningVN": "tính cách, phương pháp",
+      "meaningEN": "character, method",
+      "trap": [
+        "cachS",
+        "cajP",
+        "cajF"
+      ]
+    },
+    {
+      "id": 113,
+      "vn": "phép",
+      "k": "pepS",
+      "min_score": 0,
+      "meaningVN": "phương pháp, quy tắc",
+      "meaningEN": "method, rule",
+      "trap": [
+        "phepS",
+        "pepP",
+        "pepF"
+      ]
+    },
+    {
+      "id": 114,
+      "vn": "thuật",
+      "k": "thuatF",
+      "min_score": 0,
+      "meaningVN": "kỹ thuật, nghệ thuật",
+      "meaningEN": "technique, art",
+      "trap": [
+        "thuatS",
+        "thuatP",
+        "thuaF"
+      ]
+    },
+    {
+      "id": 115,
+      "vn": "kỹ",
+      "k": "kyZ",
+      "min_score": 0,
+      "meaningVN": "kỹ thuật, tinh xảo",
+      "meaningEN": "skill, technical",
+      "trap": [
+        "kiZ",
+        "kyS",
+        "kyL"
+      ]
+    },
+    {
+      "id": 116,
+      "vn": "xảo",
+      "k": "xaoQ",
+      "min_score": 0,
+      "meaningVN": "tinh xảo, khéo léo",
+      "meaningEN": "skillful, clever",
+      "trap": [
+        "xaoS",
+        "xaoL",
+        "xaoF"
+      ]
+    },
+    {
+      "id": 117,
+      "vn": "khéo",
+      "k": "qeoS",
+      "min_score": 0,
+      "meaningVN": "khéo léo, tài giỏi",
+      "meaningEN": "skillful, clever",
+      "trap": [
+        "kheoS",
+        "qeoL",
+        "qeoF"
+      ]
+    },
+    {
+      "id": 118,
+      "vn": "thông tin",
+      "k": "thowNtinN",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "tin tức, thông báo",
+      "meaningEN": "information, news",
+      "trap": [
+        "thongTinN",
+        "thowNthinN",
+        "thowNtinL"
+      ]
+    },
+    {
+      "id": 119,
+      "vn": "bền vững",
+      "k": "benLvuwZ",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "lâu dài, ổn định",
+      "meaningEN": "sustainable, durable",
+      "trap": [
+        "benVungZ",
+        "benLvungZ",
+        "benLvuwS"
+      ]
+    },
+    {
+      "id": 120,
+      "vn": "đóng góp",
+      "k": "yowSgopS",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "góp phần, cống hiến",
+      "meaningEN": "contribute, donate",
+      "trap": [
+        "dongGopS",
+        "yowSgopP",
+        "yowSgopL"
+      ]
+    },
+    {
+      "id": 121,
+      "vn": "kết nối",
+      "k": "ketSnoiS",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "liên kết, gắn bó",
+      "meaningEN": "connect, link",
+      "trap": [
+        "ketNoiS",
+        "ketSnoiP",
+        "ketSnoiL"
+      ]
+    },
+    {
+      "id": 122,
+      "vn": "chia sẻ",
+      "k": "fiaNseQ",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "san sẻ, cùng hưởng",
+      "meaningEN": "share, divide",
+      "trap": [
+        "chiaSeQ",
+        "fiaNseS",
+        "fiaNseL"
+      ]
+    },
+    {
+      "id": 123,
+      "vn": "cộng hưởng",
+      "k": "cowPhuowQ",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "cùng cộng hưởng",
+      "meaningEN": "resonate together",
+      "trap": [
+        "congHuongQ",
+        "cowPhuongQ",
+        "cowPhuowS"
+      ]
+    },
+    {
+      "id": 124,
+      "vn": "tương lai",
+      "k": "tuowMlaiN",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "thời gian sắp tới",
+      "meaningEN": "future, tomorrow",
+      "trap": [
+        "tuongLaiN",
+        "tuowMlaiL",
+        "tuowMlaiS"
+      ]
+    },
+    {
+      "id": 125,
+      "vn": "thành công",
+      "k": "thafLcowN",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "đạt được mục tiêu",
+      "meaningEN": "success, achievement",
+      "trap": [
+        "thanhCongN",
+        "thafLcongN",
+        "thafLcowL"
+      ]
+    },
+    {
+      "id": 126,
+      "vn": "sáng tạo",
+      "k": "sawStaoP",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "tạo ra cái mới",
+      "meaningEN": "creative, innovative",
+      "trap": [
+        "sangTaoP",
+        "sawStaoS",
+        "sawStaoL"
+      ]
+    },
+    {
+      "id": 127,
+      "vn": "tư duy",
+      "k": "tuNduyN",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "suy nghĩ, tư tưởng",
+      "meaningEN": "thinking, thought",
+      "trap": [
+        "tuDuyN",
+        "tuNduyL",
+        "tuNduyS"
+      ]
+    },
+    {
+      "id": 128,
+      "vn": "biết ơn",
+      "k": "bietSonM",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "nhớ ơn, cảm kích",
+      "meaningEN": "grateful, thankful",
+      "trap": [
+        "bietOnM",
+        "bietSonN",
+        "bietSonL"
+      ]
+    },
+    {
+      "id": 129,
+      "vn": "an nhiên",
+      "k": "anNfenN",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "bình an, thư thái",
+      "meaningEN": "peaceful, serene",
+      "trap": [
+        "anNhienN",
+        "anNfienN",
+        "anNfenL"
+      ]
+    },
+    {
+      "id": 130,
+      "vn": "thăng hoa",
+      "k": "thawNhoaN",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "vươn lên, tỏa sáng",
+      "meaningEN": "sublimate, elevate",
+      "trap": [
+        "thangHoaN",
+        "thawNhoaL",
+        "thawNhoaS"
+      ]
+    },
+    {
+      "id": 131,
+      "vn": "vững mạnh",
+      "k": "vuwZmafP",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "chắc chắn, mạnh mẽ",
+      "meaningEN": "stable and strong",
+      "trap": [
+        "vungManhP",
+        "vuwZmanhP",
+        "vuwZmafS"
+      ]
+    },
+    {
+      "id": 132,
+      "vn": "nguồn gốc",
+      "k": "wuonLgocS",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "xuất xứ, nguồn gốc",
+      "meaningEN": "origin, source",
+      "trap": [
+        "nguonGocS",
+        "wuonLgocP",
+        "wuonLgocL"
+      ]
+    },
+    {
+      "id": 133,
+      "vn": "dòng sông",
+      "k": "dowLsowN",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "con sông, dòng nước",
+      "meaningEN": "river, stream",
+      "trap": [
+        "dongSongN",
+        "dowLsongN",
+        "dowLsowL"
+      ]
+    },
+    {
+      "id": 134,
+      "vn": "đèn đường",
+      "k": "yenLyuowL",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "đèn chiếu sáng đường",
+      "meaningEN": "street lamp",
+      "trap": [
+        "denDuongL",
+        "yenLduongL",
+        "yenLyuowN"
+      ]
+    },
+    {
+      "id": 135,
+      "vn": "thư giãn",
+      "k": "thuNgianZ",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "nghỉ ngơi, thư giãn",
+      "meaningEN": "relax, unwind",
+      "trap": [
+        "thuGianZ",
+        "thuNgianS",
+        "thuNgianL"
+      ]
+    },
+    {
+      "id": 136,
+      "vn": "giúp việc",
+      "k": "giupSviecF",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "hỗ trợ, giúp đỡ",
+      "meaningEN": "help, assist",
+      "trap": [
+        "giupViecF",
+        "giupSviecS",
+        "giupSviecL"
+      ]
+    },
+    {
+      "id": 137,
+      "vn": "dịu dàng",
+      "k": "diuPdawL",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "nhẹ nhàng, ôn hòa",
+      "meaningEN": "gentle, tender",
+      "trap": [
+        "diuDangL",
+        "diuPdangL",
+        "diuPdawN"
+      ]
+    },
+    {
+      "id": 138,
+      "vn": "đôi mắt",
+      "k": "yoiNmatS",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "hai mắt, ánh nhìn",
+      "meaningEN": "eyes, vision",
+      "trap": [
+        "doiMatS",
+        "yoiNmatP",
+        "yoiNmatL"
+      ]
+    },
+    {
+      "id": 139,
+      "vn": "thế hệ",
+      "k": "theSheP",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "lớp người cùng thời",
+      "meaningEN": "generation, era",
+      "trap": [
+        "theHeP",
+        "theSheS",
+        "theSheL"
+      ]
+    },
+    {
+      "id": 140,
+      "vn": "giàu có",
+      "k": "giauLcoS",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "có nhiều tiền của",
+      "meaningEN": "rich, wealthy",
+      "trap": [
+        "giauCoS",
+        "giauLcoP",
+        "giauLcoL"
+      ]
+    },
+    {
+      "id": 141,
+      "vn": "danh dự",
+      "k": "dafNduP",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "danh tiếng và uy tín",
+      "meaningEN": "honor, reputation",
+      "trap": [
+        "danhDuP",
+        "dafNduS",
+        "dafNduL"
+      ]
+    },
+    {
+      "id": 142,
+      "vn": "độc lập",
+      "k": "yocPlapF",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "tự chủ, không phụ thuộc",
+      "meaningEN": "independent, self-reliant",
+      "trap": [
+        "docLapF",
+        "yocPlapS",
+        "yocPlapL"
+      ]
+    },
+    {
+      "id": 143,
+      "vn": "thành phố",
+      "k": "thafLpoS",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "đô thị, thành thị",
+      "meaningEN": "city, urban area",
+      "trap": [
+        "thanhPhoS",
+        "thafLphoS",
+        "thafLpoP"
+      ]
+    },
+    {
+      "id": 144,
+      "vn": "nghỉ ngơi",
+      "k": "wiQwoiN",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "nghỉ ngơi, thư giãn",
+      "meaningEN": "rest, take a break",
+      "trap": [
+        "nghiNgoiN",
+        "wiQngoiN",
+        "wiQwoiL"
+      ]
+    },
+    {
+      "id": 145,
+      "vn": "giống nhau",
+      "k": "giowSfauN",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "tương tự, như nhau",
+      "meaningEN": "similar, alike",
+      "trap": [
+        "giongNhauN",
+        "giowSnauN",
+        "giowSfauL"
+      ]
+    },
+    {
+      "id": 146,
+      "vn": "dễ chịu",
+      "k": "deZfiuP",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "thoải mái, dễ chịu",
+      "meaningEN": "comfortable, pleasant",
+      "trap": [
+        "deChiuP",
+        "deZchiuP",
+        "deZfiuS"
+      ]
+    },
+    {
+      "id": 147,
+      "vn": "đông đúc",
+      "k": "yowNyucS",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "nhiều người, chật chội",
+      "meaningEN": "crowded, packed",
+      "trap": [
+        "dongDucS",
+        "yowNducS",
+        "yowNyucP"
+      ]
+    },
+    {
+      "id": 148,
+      "vn": "định hướng",
+      "k": "yifPhuowT",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "chỉ dẫn phương hướng",
+      "meaningEN": "orientation, direction",
+      "trap": [
+        "dinhHuongT",
+        "yifPhuongT",
+        "yifPhuowS"
+      ]
+    },
+    {
+      "id": 149,
+      "vn": "nghiên cứu",
+      "k": "wienNcuuS",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "tìm hiểu, nghiên cứu",
+      "meaningEN": "research, study",
+      "trap": [
+        "nghienCuuS",
+        "wienNchuS",
+        "wienNcuuP"
+      ]
+    },
+    {
+      "id": 150,
+      "vn": "kiên nhẫn",
+      "k": "kienNfanZ",
+      "min_score": 101,
+      "timer": 60,
+      "meaningVN": "chịu đựng, bền bỉ",
+      "meaningEN": "patient, enduring",
+      "trap": [
+        "kienNhanZ",
+        "kienNfanS",
+        "kienNfanL"
+      ]
+    }
+  ]
+}
